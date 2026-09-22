@@ -1,0 +1,16 @@
+# Compiled C executables
+*.exe
+
+# C object files
+*.o
+
+# Debug/build folders
+build/
+bin/
+
+# VS Code local settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
