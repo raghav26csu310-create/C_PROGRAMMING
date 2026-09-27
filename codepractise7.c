@@ -73,7 +73,7 @@ int main()
 
 
 
-//
+// C program to check number is postive or negative
 // {
 //     int num;
 //     printf("enter the number:");
