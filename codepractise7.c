@@ -100,6 +100,10 @@ int main()
 //           printf("%d is greater than %d", b, a);
 //     return 0;
 // }
+
+
+
+
 {
     int a,b;
     printf("enter the first  number: ");

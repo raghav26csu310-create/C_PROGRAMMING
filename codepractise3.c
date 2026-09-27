@@ -6,6 +6,10 @@
 //     printf("%d", d);
 //     return 0;
 //  }
+
+
+
+
 /*int increment();
 extern int count;
 int main()
@@ -18,12 +22,20 @@ int main()
     printf("%d", value);
     return 0;
 }*/
+
+
+
+
 // # define add(x,y) x + y
 // int main()
 // { 
 //     printf("the sum of the addition is %d", add(3,4));
 //     return 0;
 // }
+
+
+
+
 // # define greater(x,y) if(x>y) \
 // printf("%d is greater than than %d", x,y); \
 // else \
@@ -33,12 +45,20 @@ int main()
 //     greater(5,6);
 //     return 0;
 // }
+
+
+
+
 // # define add(x,y) x + y
 // int main()
 // {
 //     printf("the sum of expression a*b + c is %d", 5 * add(3,4));
 //     return 0;
 // }
+
+
+
+
 // int main()
 // {
 //     printf("DATE: %s\n", __DATE__);
@@ -46,12 +66,20 @@ int main()
 //     return 0;
 
 // }
+
+
+
+
 // int main()
 // {
 //     int var = 052;
 //     printf("%o", var);
 //     return 0;
 // }
+
+
+
+
 int main()
 {
     int a, b;
@@ -62,6 +90,10 @@ int main()
     printf("the result of sum of given numbers is %d + %d = %d", a, b,a+b );
     return 0;
 }
+
+
+
+
 // static int i;
 // static int i = 27;
 // static int i;

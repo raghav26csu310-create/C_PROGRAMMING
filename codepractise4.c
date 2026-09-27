@@ -9,6 +9,10 @@
 //     printf("%d", area);
 //     return 0;
 // }
+
+
+
+
 // int main()
 // {
 //     int a, b;
@@ -20,19 +24,29 @@
 //     printf("a/b = %d\n", a/b);
 //     printf("a %% b = %d\n", a%b);
 //     return 0;
-
-
 // }
+
+
+
+
 // {
 //     int a = 4, b = 3;
 //     printf("%d", a+++b);
 //     return 0; 
 // }
+
+
+
+
 // {
 //      int a = 4, b = 3;
 // printf("%d", a+++b);
 // return 0;
 // }
+
+
+
+
 // {
 //     int a = 300, b = 2090;
 //     if (a>=b)
@@ -41,6 +55,10 @@
 //     printf("oops!");
 //     return 0;
 // }
+
+
+
+
 // {
 //     int a = 5;
 //     if (a > 5 || a == 6 || a >= 56 || a < 4)
@@ -49,11 +67,19 @@
 //     printf("sad");
 //     return 0;
 // }
+
+
+
+
 // { int a = 5;
 // if (!(a == 6))
 // printf("yay");
 // return 0;
 // }
+
+
+
+
 // { 
 //     int a = 5, b = 3;
 //     int incr;
@@ -62,6 +88,10 @@
 //     printf("%d", b);
 //     return 0;
 // }
+
+
+
+
 // { 
 //      int a = 5, b = 3;
 //     int incr;
@@ -70,6 +100,10 @@
 //     printf("%d", b);
 //     return 0;
 // }
+
+
+
+
 // {
 //     char x = 1, y = 2;
 //     if (x&y)
@@ -78,16 +112,28 @@
 //     printf("result is 2");
 //     return 0;
 // }
+
+
+
+
 // {
 //     char var = 3;
 //     printf("%d", var<<5);
 //     return 0;
 // }
+
+
+
+
 // {
 //     char var = 20;
 //     printf("%d", var>>2);
 //     return 0;
 // }
+
+
+
+
 int main()
 {
     int a = 4, b = 3;

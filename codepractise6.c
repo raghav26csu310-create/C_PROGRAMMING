@@ -8,8 +8,11 @@ int main()
 //     b = a++;
 //      printf("%d , %d", a, b);
 //      return 0;
-
 // }
+
+
+
+
 // {
 //     int a = 5;
 //     int b;
@@ -18,6 +21,10 @@ int main()
 //     printf("%d", a+++b);
 //     return 0;
 // }
+
+
+
+
 {
     int a = 10;
     int j;
