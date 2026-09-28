@@ -61,16 +61,46 @@ int main()
 //     printf("%d", i);
 // }
 
+// {
+//     int x = 3;
+
+//     if (x == 2);
+//     x = 0;
+
+//     if (x == 3)
+//         x++;
+//     else
+//         x += 2;
+
+//     printf("X = %d", x);
+// }
+
+// {
+//     int i, sum;
+//     for (i = 1, sum = 0; i <= 10; i++)
+//     {
+//         sum = sum + i;
+//     }
+//     printf("%d", sum);
+//     return 0;
+// }
+
+// {
+//     int i, sum;
+//     for (i = 1, sum = 0; i <= 10; i++)
+//     {
+//         sum = sum + i * i;
+//     }
+//     printf("%d", sum);
+//     return 0;
+// }
+
 {
-    int x = 3;
-
-    if (x == 2);
-    x = 0;
-
-    if (x == 3)
-        x++;
-    else
-        x += 2;
-
-    printf("X = %d", x);
+    int i, n;
+    scanf("%d", &i);
+    for (n = 1; n <= 10; n++)
+    {
+        printf("\n%d * %d = %d", i, n, i * n);
+    }
+    return 0;
 }
