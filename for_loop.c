@@ -8,9 +8,6 @@ int main()
 //     return 0;
 // }
 
-
-
-
 // {
 //     int i;
 //     for (i = 0; i < 20; i++)
@@ -31,9 +28,6 @@ int main()
 //     return 0;
 // }
 
-
-
-
 // {
 //     int i = -5;
 
@@ -51,9 +45,6 @@ int main()
 // }
 // }
 
-
-
-
 // {
 //     int i = 0;
 
@@ -70,14 +61,10 @@ int main()
 //     printf("%d", i);
 // }
 
-
-
-
 {
     int x = 3;
 
     if (x == 2);
-        
     x = 0;
 
     if (x == 3)
