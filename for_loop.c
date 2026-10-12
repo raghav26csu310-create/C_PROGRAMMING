@@ -95,12 +95,52 @@ int main()
 //     return 0;
 // }
 
-{
-    int i, n;
-    scanf("%d", &i);
-    for (n = 1; n <= 10; n++)
-    {
-        printf("\n%d * %d = %d", i, n, i * n);
-    }
-    return 0;
-}
+// {
+//     int i, n;
+//     scanf("%d", &i);
+//     for (n = 1; n <= 10; n++)
+//     {
+//         printf("\n%d * %d = %d", i, n, i * n);
+//     }
+//     return 0;
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+//     int n, i;
+//     scanf("%d", &n);
+//         int fact = 1;
+//     for (i = 1; i <= n; i++)
+//         fact = 1 * fact;
+//     printf("%d", i);
+//     return 0;
+// }
+// {
+//     int n;
+//     scanf("%d", &n);
+//     for (int i = 1; i <= n; i++)
+//     {
+//         if (n % i == 0)
+//             printf("%d ", i);
+//     }
+// }
+
+// {
+//     int n;
+//     scanf("%d", &n);
+//     if (n == 0)
+//         return 1;
+
+//     long long fact = 1;
+//     int i = 1;
+
+//     do
+//     {
+//         fact *= i;
+//         i++;
+//     } while (i <= n);
+
+//     printf("%d", fact);
+// }
+
