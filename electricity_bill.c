@@ -19,6 +19,5 @@ int main()
     }
 
     printf("%d", bill);
-    
     return 0;
 }

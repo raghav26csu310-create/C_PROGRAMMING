@@ -15,6 +15,9 @@ int main()
     printf("\n after swapping x = %d  y = %d", x, y);
 }
 
+
+
+
 #include <stdio.h>
 void swap(int *xp, int *yp)
 {
@@ -30,6 +33,9 @@ int main()
     swap(&x, &y);
     printf("\n after swapping x = %d  y = %d", x, y);
 }
+
+
+
 
 #include <stdio.h>
 void swap(int *xp, int *yp)

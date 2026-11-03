@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    // int arr[5] = {1, 12, 22, 23, 56}; when elements are equal to the array value
-    // int arr[5] = {};  when array element box empty all values become zero
-    // int arr[5] = {1, 2, 3, 4, 5, 6, 7}; when elements greater than array value
-    // int arr[5] = {1, 2, 3}; when elements are less than array value
+     int arr[5] = {1, 12, 22, 23, 56};// when elements are equal to the array value
+     int arr[5] = {};// when array element box empty all values become zero
+     int arr[5] = {1, 2, 3, 4, 5, 6, 7};// when elements greater than array value
+     int arr[5] = {1, 2, 3};// when elements are less than array value
     int arr[5];
     for (int i = 0; i < 5; i++)
     {

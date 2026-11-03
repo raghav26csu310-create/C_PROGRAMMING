@@ -11,6 +11,7 @@ int main()
 
     printf("choose what operator to use:");
     scanf(" %c", &o);
+    
     switch (o)
     {
     case '1':

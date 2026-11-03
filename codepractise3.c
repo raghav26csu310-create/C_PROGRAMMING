@@ -1,16 +1,17 @@
  #include <stdio.h>
-//  int d = 24;
-//  int main()
-//  {
-//     extern int d;
-//     printf("%d", d);
-//     return 0;
-//  }
+ int d = 24;
+ int main()
+ {
+    extern int d;
+    printf("%d", d);
+    return 0;
+ }
 
 
 
 
-/*int increment();
+ #include <stdio.h>
+int increment();
 extern int count;
 int main()
 {
@@ -21,65 +22,59 @@ int main()
     value = count * 2;
     printf("%d", value);
     return 0;
-}*/
+}
 
 
 
 
-// # define add(x,y) x + y
-// int main()
-// { 
-//     printf("the sum of the addition is %d", add(3,4));
-//     return 0;
-// }
+ #include <stdio.h>
+# define add(x,y) x + y
+int main()
+{ 
+    printf("the sum of the addition is %d", add(3,4));
+    return 0;
+}
 
 
 
 
-// # define greater(x,y) if(x>y) \
-// printf("%d is greater than than %d", x,y); \
-// else \
-// printf("%d is lesser than %d", x,y);
-// int main()
-// { 
-//     greater(5,6);
-//     return 0;
-// }
+ #include <stdio.h>
+# define greater(x,y) if(x>y) \
+printf("%d is greater than than %d", x,y); \
+else \
+printf("%d is lesser than %d", x,y);
+int main()
+{ 
+    greater(5,6);
+    return 0;
+}
 
 
 
 
-// # define add(x,y) x + y
-// int main()
-// {
-//     printf("the sum of expression a*b + c is %d", 5 * add(3,4));
-//     return 0;
-// }
+ #include <stdio.h>
+# define add(x,y) x + y
+int main()
+{
+    printf("the sum of expression a*b + c is %d", 5 * add(3,4));
+    return 0;
+}
 
 
 
 
-// int main()
-// {
-//     printf("DATE: %s\n", __DATE__);
-//     printf("TIME: %s\n", __TIME__);
-//     return 0;
-
-// }
-
-
-
-
-// int main()
-// {
-//     int var = 052;
-//     printf("%o", var);
-//     return 0;
-// }
+ #include <stdio.h>
+int main()
+{
+    printf("DATE: %s\n", __DATE__);
+    printf("TIME: %s\n", __TIME__);
+    return 0;
+}
 
 
 
 
+ #include <stdio.h>
 int main()
 {
     int a, b;
@@ -94,13 +89,13 @@ int main()
 
 
 
-// static int i;
-// static int i = 27;
-// static int i;
-// int main()
-// {
-//     static int i;
-//     printf("%d", i);
-//     return 0;
-
-// }
+ #include <stdio.h>
+static int i;
+static int i = 27;
+static int i;
+int main()
+{
+    static int i;
+    printf("%d", i);
+    return 0;
+}

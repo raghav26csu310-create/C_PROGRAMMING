@@ -3,7 +3,6 @@
 int fun();
 
 int var = 10;
-
 int main()
 {
     int var = 3;

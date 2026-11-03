@@ -1,38 +1,42 @@
 // C program to using while loop to write
 #include <stdio.h>
 int main()
-// {
-//     int count = 1;
+{
+    int count = 1;
 
-//     while (count <= 10)
-//     {
+    while (count <= 10)
+    {
 
-//         printf("\n%d", count);
+        printf("\n%d", count);
 
-//         count++;
-//     }
-//     return 0;
-// }
-
-
-
-
-// {
-//     int count = 10;
-
-//     while (count >= 1)
-//     {
-
-//         printf("\n%d", count);
-
-//         count--;
-//     }
-//     return 0;
-// }
+        count++;
+    }
+    return 0;
+}
 
 
 
 
+#include <stdio.h>
+int main()
+{
+    int count = 10;
+
+    while (count >= 1)
+    {
+
+        printf("\n%d", count);
+
+        count--;
+    }
+    return 0;
+}
+
+
+
+
+#include <stdio.h>
+int main()
 {
     int count = 1;
 
